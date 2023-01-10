@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="js/bootstrap.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/index.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>website</title>
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <section id="title">
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand">Sikozho Web Developers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pri">Prices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About Us</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light btn-lg" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 id="h1">For all your Web Development and many more</h1>
+                </div>
+                <div class="col-lg-6">
+                    <center><img class="title-image" src="images/IMG_20220626_081930.jpg" alt="vengesai sikozho" width="200" height="200"></center>
+                </div>
+            </div>
+            <div>
+                <button id="donate" type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i>Donate</button>
+
+                <button id="subs" type="button" class="btn btn-outline-light btn-lg" onclick="changeword()">Subscribe</button>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="feat" class="features">
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <img src="images/tick.jpg" width="50" height="50">
+                <h2>Cheap</h2>
+                <p>We give you value for your money. Quality for less</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <img src="images/tick.jpg" width="50" height="50">
+                <h2>Fast</h2>
+                <p>Deadlines are very import to us. We strive to meet them</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <img src="images/tick.jpg" width="50" height="50">
+                <h2>Reliable</h2>
+                <p>Once You engage us, you are guaranteed to achieve</p>
+            </div>
+        </div>
+    </section>
+    <section id="about-us">
+
+        <div class="middle-container">
+            <div class="edu">
+                <h3>Educational Profile</h3>
+                <img src="images/education.png" alt="edu" width="150" height="150">
+                <table>
+                    <td>
+                        <li>Professional Graduate Diploma In Risk and Security Management</li>
+                    </td>
+                    <td>(CIRSM)</td>
+                    <tr>
+                        <td>
+                            <li> Bcom Hons Information Systems</li>
+                        </td>
+                        <td>(GZU)</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="exp">
+                <h3>Work Experience</h3>
+                <img src="images/portfolio.png" alt="portfolio" width="150" height="150">
+                <table cellspacing="10">
+                    <thead>
+                        <tr>
+                            <th><em>Dates</em></th>
+                            <th><em>Work</em></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <li>March 2012-Nov 2015</li>
+                            </td>
+                            <td>ZRP Victoria Falls DHQ ICT</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li>Nov 2015-Nov 2022</li>
+                            </td>
+                            <td>ZRP Chiredzi DHQ ICT</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li>Nov 2022 to date</li>
+                            </td>
+                            <td>ZRP Masvingo PHQ Systems Admin</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="skill">
+                <h3>Skills</h3>
+                <img src="images/coding.png" width="150" height="150">
+                <table cellspacing="10">
+                    <tr>
+                        <ul>
+                            <li>Web Developer</li>
+                            <li>CyberSecurity Expert</li>
+                            <li>Android Developer</li>
+                        </ul>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="price" id="pri">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Pricing</h1>
+            <p class="hh1">We have a plan that works for you!!</p>
+        </div>
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Basic Web Development</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$250</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Free Hosting for one Month</li>
+                                <li>Free Maintenence</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary" action="mailto:vsikozho@gmail.com">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$350</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Free Hosting for six Months</li>
+                                <li>Free Maintenence</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary" action="mailto:vsikozho@gmail.com">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$500</h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Free Hosting for one Year</li>
+                                <li>Free Maintenence</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary" action="mailto:vsikozho@gmail.com">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section id="salute">
+        <h1 id="sal">Have your design done by the best. We are the best in town!!</h1>
+    </section>
+    <section>
+
+        <div id="footer">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        <h6>&copy; V. Sikozho, 2022, Inc. All rights reserved.</h6>
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <p>
+                        <h6>Call: 0779 246 104, email:vsikozho@gmail.com</h6>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

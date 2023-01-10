@@ -1,0 +1,93 @@
+#title {
+    background-color: #ff4c68
+}
+
+.navbar-brand {
+    font-family: serif;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container-fluid {
+    padding: 3% 15%
+}
+
+#h1 {
+    color: white;
+    font-size: 3rem;
+    line-height: 1;
+    font-style: oblique;
+}
+
+.h4 {
+    font-style: italic;
+    font-size: x-large;
+    line-height: 1.5;
+}
+
+.nav-link {
+    color: green;
+}
+
+.title-image {
+    width: 60%;
+    border-radius: 100%;
+}
+
+.features {
+    padding: 7% 15%
+}
+
+#testimonials {
+    padding: 3% 15%;
+    background-color: blueviolet;
+    text-align: center;
+    color: beige;
+}
+
+.test-name {
+    font-size: medium;
+    color: aqua;
+}
+
+.price {
+    background-color: cadetblue;
+}
+
+.hh1 {
+    color: red;
+    font-size: xx-large;
+}
+
+#salute {
+    background-color: #ff4c68;
+    padding: 3% 15%;
+}
+
+#sal {
+    text-align: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+
+#footer {
+    background-color: aqua;
+    text-align: center;
+}
+
+.edu {
+    background-color: azure;
+    padding: 3% 15%;
+}
+
+.exp {
+    background-color: #E6D6BC;
+    padding: 3% 15%;
+}
+
+.skill {
+    background-color: antiquewhite;
+    padding: 3% 15%;
+}
